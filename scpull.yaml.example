@@ -1,0 +1,12 @@
+profiles:
+  switch-logs:
+    user: admin
+    paths:
+      - /var/log/messages
+      - /flash/syslog.txt
+
+  ansible-applied:
+    user: deploy
+    paths:
+      - /etc/nginx/conf.d/site.conf
+      - /etc/myapp/app.conf
